@@ -1,4 +1,4 @@
-import { View, Text, ImageBackground } from "react-native";
+import { View, Text } from "react-native";
 import React from "react";
 import { Tabs } from "expo-router";
 import Ionicons from "@expo/vector-icons/Ionicons";
@@ -34,6 +34,7 @@ const _layout = () => {
           marginBottom: 36,
           position: "absolute",
           overflow: "hidden",
+          borderTopWidth: 0,
         },
       }}
     >
